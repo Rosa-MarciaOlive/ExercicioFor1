@@ -9,7 +9,7 @@ public class ExercicioFor1{
         //2. Imprima a soma de 1 até 1000.
         int n2=0;
         for (n2=+1; n2>=100; n2++){
-            System.out.println("Soma de 1 até 100"+n2);
+            System.out.println("Soma de 1 até 100"+n2);//uu
         }
 
     }
