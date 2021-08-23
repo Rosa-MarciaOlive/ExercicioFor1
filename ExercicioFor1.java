@@ -34,16 +34,10 @@ se x é par, x = x / 2
 se x é impar, x = 3 * x + 1
 imprime x
 x= int System.out.println(INPUT("Escreva um número: "+  )*/
-	
-	System.out.print("Entre com o numero: ");
-	int entrada = sc.nextInt();
-	System.out.println("");
+	x=System.out.println(INPUT(" "));
+    System.out.println(x);
 					
-	for (int x = 1; x <= entrada; x++) {
-					
-		System.out.println( x);	
-			
-    } 
+	 
 }
 }
 
