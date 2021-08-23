@@ -20,20 +20,30 @@ public class ExercicioFor1{
             if (n3 % 3 == 0){
             System.out.println(n3);
             }
-            }*/
+            }
 //4. Imprima os fatoriais de 1 a 10. 
     int fat=1, n4=0, n=0, num=1;
      for (n4=1; n4<=10; n4++){
          fat=fat*n4;                
              System.out.println("Valores fatoriais de 1 a 10:\n "+fat);
-         }
-    }
-}
+         }*/
+ 
 /*5. (opcional) Escreva um programa que, dada uma variável x com algum valor inteiro, temos um
 novo x de acordo com a seguinte regra:
 se x é par, x = x / 2
 se x é impar, x = 3 * x + 1
 imprime x
 x= int System.out.println(INPUT("Escreva um número: "+  )*/
-    
+	
+	System.out.print("Entre com o numero: ");
+	int entrada = sc.nextInt();
+	System.out.println("");
+					
+	for (int x = 1; x <= entrada; x++) {
+					
+		System.out.println( x);	
+			
+    } 
+}
+}
 
