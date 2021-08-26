@@ -34,10 +34,16 @@ se x é par, x = x / 2
 se x é impar, x = 3 * x + 1
 imprime x
 x= int System.out.println(INPUT("Escreva um número: "+  )*/
-	x=System.out.println(INPUT(" "));
-    System.out.println(x);
+	int x = 57;
+    if (x % 2 ==0){  //resto(%) da divisão for par
+        x = x / 2;
+    System.out.println("Valor de x: "+x);
+    }
+    else{
+    x = 3 * x + 1;
+    System.out.println("Valor de x: "+x);
 					
-	 
+    }	 
 }
 }
 
