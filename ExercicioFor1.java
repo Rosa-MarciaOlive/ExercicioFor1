@@ -1,6 +1,12 @@
-// Exercicio For de 1 até 5
+// Exercicios For de 1 até 5
 public class ExercicioFor1{
     public static void main (String args[]){
+
+        //Menu q aparecerá no terminal...finalizar...
+        //int opcao;
+        //if (opcao == 1){}
+        //............................cont
+        
         /*int n=0;
         for (n=150; n<=300; n++){
 //1. Imprimir todos os números de 150 a 300
