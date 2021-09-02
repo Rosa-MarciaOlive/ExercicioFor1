@@ -10,7 +10,8 @@ public class Principal{
         int opcao;
         System.out.println("Digite a opção desejada.");
         //System.out.println("Opção: 1 imprimir;\n2 soma;\n3 multiplo;\n4fatorial;\n5 par_impar");
-        Scanner input =new Scanner(System.in);
+        Scanner input = 
+        new Scanner(System.in);
         opcao=input.nextInt();
         //e1.imprimir();
         //e2.soma();
